@@ -1,0 +1,17 @@
+{
+  "name": "crawler-backend",
+  "version": "1.0.0",
+  "description": "web crawler to discover product urls across ecommerce websites ",
+  "main": "src/app.js",
+  "scripts": {
+    "start": "node src/app.js",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "axios": "^0.21.1",
+    "cheerio": "^1.0.0-rc.10",
+    "express": "^4.17.1"
+  }
+}
